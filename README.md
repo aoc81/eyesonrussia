@@ -35,7 +35,7 @@ Using arguments gives you the possibility to select and filter data based on you
 
 
 # About the script
-The intention of this repository is just to contribute with a small tool to produce an structured archive of the events that are happening and beeing verified by those organizations. For visualizations analysis, [Maphub](https://maphub.net) Eyes On Russia is a great resource, but data analysts might prefer to work directly with the data, or create a query to extract only certain events so I hope this script could be useful for some of you.
+The intention of this repository is just to contribute with a small tool to produce an structured archive of the events that are happening and beeing verified by those organizations. For visualizations analysis, [Eyes On Russia](https://eyesonrussia.org) is a great resource, but data analysts might prefer to work directly with the data, or create a query to extract only certain events so I hope this script could be useful for some of you.
 
 ## About the author
-I'm a Senior Webint Analyst but with basic code skills so please feel free to clone this repository and improve it as much you want/need. Any contribution or suggestion would be more than welcome.
+I'm a Senior Webint Analyst with basic code skills so please feel free to clone this repository and improve it as much you want/need. Any contribution or suggestion would be more than welcome.
