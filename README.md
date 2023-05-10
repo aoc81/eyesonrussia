@@ -4,6 +4,7 @@ This Python scripts collects the events that have been added to the [Russia-Ukra
 # Instructions
 Make you have installed the required libraries and just execute the eyesonrussia.py script in your terminal and add any of the next optional arguments to filter the content and generate the output in your favorite format:
 ~~~
+eyesonrussia.py
 -- city "city name" 
 -- date "YYYY-MM-DD"
 -- country "country name"
@@ -16,8 +17,15 @@ After proccessing the data and creating the file(s) you'll be asked if you also 
 
 ℹ️ If you want to proceed with this, you need firstly to insert your own client service keys in the file creds.json in order to make it work. 
 
+# Arguments Examples
+Using arguments gives you the possibility to select and filter data based on your inputs, here you are examples:
+
+`eyesonrussia.py --city "Mariupol" --format "json"`
+
+`eyesonrussia.py --latlon "36.27,49.99" --date "2022-07-31" --format "xlsx`
+
 ## About the script
-The intention of this repository is just to contribute with a small tool to produce an structured archive of the events that are happening and beeing verified by those organizations. For visualizations analysis, [Maphub](https://maphub.net) Eyes On Russia is a great resource, but data analysts might prefer to work directly with the data, or create a query to extract only certain events so I hope this script could be useful as it transforms this 👇
+The intention of this repository is just to contribute with a small tool to produce an structured archive of the events that are happening and beeing verified by those organizations. For visualizations analysis, [Maphub](https://maphub.net) Eyes On Russia is a great resource, but data analysts might prefer to work directly with the data, or create a query to extract only certain events so I hope this script could be useful for some of you.
 
 ## About the author
-I'm a Senior Webint Analyst but a beginner programmer so please feel free to clone this repository and improve it as much you want/need. Any contribution or suggestion would be more than welcome.  
+I'm a Senior Webint Analyst but with basic code skills so please feel free to clone this repository and improve it as much you want/need. Any contribution or suggestion would be more than welcome.
