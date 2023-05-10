@@ -3,12 +3,14 @@ This Python scripts collects the events that have been added to the [Russia-Ukra
 
 # Instructions
 Make you have installed the required libraries and just execute the eyesonrussia.py script in your terminal and add any of the next optional arguments to filter the content and generate the output in your favorite format:
+~~~
 -- city "city name" ex: --city "Kharkiv"
--- date "YYYY-MM-DD" ex: --date "2022-06-12
+-- date "YYYY-MM-DD" ex: --date "2022-06-12"
 -- country "country name" ex: --country "Belarus"
--- latlon "lat,lon" ex: --latlon "37.9,48.5"
+-- latlon "lat,lon" ex: --latlon "37.9,48.5" // it accepts any coords length
 -- format "extension" ex: --format "json" or -- format "xlsx"
 -- backup "gdrive" ex: --backup "gdrive"
+~~~
 
 After proccessing the data and creating the file(s) you'll be asked if you also want to generates a Google Spreadsheet backup in your Google Drive account. 
 
