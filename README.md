@@ -21,9 +21,9 @@ After proccessing the data and creating the file(s) you'll be asked if you also 
 # Arguments Examples
 Using arguments gives you the possibility to select and filter data based on your inputs, here you are examples:
 
-`eyesonrussia.py --city "Mariupol" --category "firing" --format "json"`
+`python eyesonrussia.py --city "Mariupol" --category "damage" --format "json"`
 
-`eyesonrussia.py --latlon "36.27,49.99" --date "2022-07-31" --format "xlsx`
+`python eyesonrussia.py --latlon "36.27,49.99" --date "2022-07-31" --format "xlsx`
 
 # Output Examples
 ### Excel
