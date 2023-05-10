@@ -11,12 +11,10 @@ eyesonrussia.py
 -- category "keyword" // for example: bombing, casualty, battle, detention, infrastructure, damage, military, etc
 -- latlon "lat,lon" // it accepts any coords length
 -- format "extension" // it accepts json and xlsx
--- backup "gdrive" 
+-- backup "yes" // it creates a google spreadsheet on your google account. ℹ️ You need firstly to insert your own Google Sheet API keys in the file creds.json in order to make it work. 
 ~~~
 
-After proccessing the data and creating the file(s) you'll be asked if you also want to generates a Google Spreadsheet backup in your Google Drive account. 
 
-ℹ️ If you want to proceed with this, you need firstly to insert your own client service keys in the file creds.json in order to make it work. 
 
 # Arguments Examples
 Using arguments gives you the possibility to select and filter data based on your inputs, here you are examples:
