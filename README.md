@@ -27,10 +27,10 @@ Using arguments gives you the possibility to select and filter data based on you
 
 # Output Examples
 ### Excel
-![excel output](https://imgur.com/qPPx9Jm)
+![excel output](https://i.imgur.com/qPPx9Jm.jpeg)
 
 ### JSON
-![image](https://imgur.com/HRuOQlA)
+![image](https://i.imgur.com/HRuOQlA.jpeg)
 
 
 
