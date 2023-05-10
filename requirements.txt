@@ -1,0 +1,7 @@
+requests
+json
+time
+argparse
+pandas
+gspread
+oauth2client
