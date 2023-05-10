@@ -1,5 +1,5 @@
 # Eyes On Russia
-This Python scripts collects the events that have been added to the [Russia-Ukraine Monitor Map](https://eyesonrussia.org/) made by Centre for Information Resilience (CIR), Bellingcat, Conflict Intelligence Team  and the wider open source community, and it produces an output as local JSON or Excel files. Aditionally, you could automatically store the data in your own Google Spreadsheet account.  
+This Python script collects the events that have been added to the [Russia-Ukraine Monitor Map](https://eyesonrussia.org/) made by Centre for Information Resilience (CIR), Bellingcat, Conflict Intelligence Team  and the wider open source community, and it produces an output as local JSON or Excel files. Aditionally, you could automatically store the data in your own Google Spreadsheet account.  
 
 # Instructions
 Make you have installed the required libraries and just execute the eyesonrussia.py script in your terminal and add any of the next optional arguments to filter the content and generate the output in your favorite format:
