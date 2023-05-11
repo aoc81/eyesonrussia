@@ -37,7 +37,7 @@ r = requests.get(map_url, headers=headers).json()
 #structing response 
 features = r['features']
 events = []
-for feature in features[0:-1]:
+for feature in features:
     try: 
         id = feature['properties']['id']
         date = feature['properties']['verifiedDate'][:10]
