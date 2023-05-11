@@ -9,7 +9,7 @@ import argparse
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-parser = argparse.ArgumentParser(description='Generates a JSON file with events data from a URL')
+parser = argparse.ArgumentParser(description='Filter data from Eyes On Russia data and export it to JSON or Excel')
 parser.add_argument('--city', type=str, help='Filter by city')
 parser.add_argument('--date', type=str, help='Filter by date')
 parser.add_argument('--country', type=str, help='Filter by country')
